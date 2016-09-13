@@ -21,6 +21,7 @@ public class Methods {
         }
         return fib(n-1) + fib(n-2); // recursive bit (calls on it self)
     }
+    
     public int fact(int n){
         if(n == 0 || n == 1){
             return 1;
